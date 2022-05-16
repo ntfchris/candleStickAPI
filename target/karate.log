@@ -1,0 +1,157 @@
+13:22:36.012 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': IOS
+13:22:36.508 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:22:37.419 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: IOS 
+13:22:37.446 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: IOS 
+13:22:37.448 [pool-1-thread-1] ERROR com.intuit.karate - classpath:APITestDemo/feature/9DayForecast.feature:7
+* def 9DayForecastURL = baseUrl
+invalid variable name: 9DayForecastURL
+classpath:APITestDemo/feature/9DayForecast.feature:7
+13:22:38.038 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:APITestDemo/feature/9DayForecast.feature
+13:29:25.128 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': IOS
+13:29:25.512 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:29:25.519 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1648358965518
+13:29:26.463 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: IOS 
+13:29:26.489 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: IOS 
+13:29:26.492 [pool-1-thread-1] ERROR com.intuit.karate - classpath:APITestDemo/feature/9DayForecast.feature:7
+* def 9DayForecastURL = baseUrl
+invalid variable name: 9DayForecastURL
+classpath:APITestDemo/feature/9DayForecast.feature:7
+13:29:27.088 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:APITestDemo/feature/9DayForecast.feature
+13:30:02.869 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': IOS
+13:30:03.284 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:30:03.290 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1648359003289
+13:30:04.269 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: IOS 
+13:30:04.300 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: IOS 
+13:30:04.836 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://pda.weather.gov.hk/locspc/data/fnd_e.xml
+1 > Host: pda.weather.gov.hk
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_292)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:05.320 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 454
+1 < 200
+1 < Date: Sun, 27 Mar 2022 05:30:05 GMT
+1 < Server: Apache
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < Referrer-Policy: same-origin
+1 < X-Frame-Options: [SAMEORIGIN, SAMEORIGIN]
+1 < Last-Modified: Sun, 27 Mar 2022 03:42:55 GMT
+1 < Accept-Ranges: bytes
+1 < Content-Security-Policy: frame-ancestors 'self';
+1 < Content-Length: 3106
+1 < Keep-Alive: timeout=10, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: text/xml
+{"general_situation":"Under the influence of the northeast monsoon, it will be windy over the coast of Guangdong in the next couple of days. Meanwhile, a rainband will bring showers and thunderstorms to the region. The monsoon is expected to moderate midweek this week, the weather will improve gradually with temperatures rising slightly over the coast of southern China. Another surge of the northeast monsoon will bring cool weather to Guangdong in the latter part of this week to early next week.","bulletin_datetime":"202203271130","forecast_detail":[{"wx_icon":"63","forecast_day_of_week":1,"psr_id":4,"min_temp":17,"min_rh":80,"wx_desc":"Cloudy with occasional showers and isolated thunderstorms. Cool in the morning.","wind_info":"East to northeast force 4 to 5, occasionally force 6 offshore later.","max_temp":21,"max_rh":95,"psr":"High","forecast_date":"20220328"},{"wx_icon":"63","forecast_day_of_week":2,"psr_id":4,"min_temp":18,"min_rh":75,"wx_desc":"Mainly cloudy with occasional showers. Isolated thunderstorms later.","wind_info":"East force 4 to 5, occasionally force 6 offshore.","max_temp":22,"max_rh":95,"psr":"High","forecast_date":"20220329"},{"wx_icon":"54","forecast_day_of_week":3,"psr_id":1,"min_temp":20,"min_rh":75,"wx_desc":"A few showers and thunderstorms at first. Sunny intervals during the day.","wind_info":"East force 3 to 4.","max_temp":25,"max_rh":95,"psr":"Medium Low","forecast_date":"20220330"},{"wx_icon":"51","forecast_day_of_week":4,"psr_id":0,"min_temp":20,"min_rh":70,"wx_desc":"Sunny periods. Misty in the morning.","wind_info":"East force 3 to 4, occasionally force 6 offshore later.","max_temp":26,"max_rh":95,"psr":"Low","forecast_date":"20220331"},{"wx_icon":"52","forecast_day_of_week":5,"psr_id":0,"min_temp":17,"min_rh":60,"wx_desc":"Sunny intervals. Cool in the morning.","wind_info":"East to northeast force 5, occasionally force 6 offshore and on high ground.","max_temp":22,"max_rh":80,"psr":"Low","forecast_date":"20220401"},{"wx_icon":"62","forecast_day_of_week":6,"psr_id":1,"min_temp":15,"min_rh":60,"wx_desc":"Cloudy with a few showers. Cool in the morning and at night.","wind_info":"North to northeast force 4 to 5.","max_temp":19,"max_rh":80,"psr":"Medium Low","forecast_date":"20220402"},{"wx_icon":"52","forecast_day_of_week":0,"psr_id":0,"min_temp":15,"min_rh":60,"wx_desc":"Cool with one or two showers in the morning. Sunny intervals in the afternoon.","wind_info":"North to northeast force 4 to 5.","max_temp":20,"max_rh":80,"psr":"Low","forecast_date":"20220403"},{"wx_icon":"51","forecast_day_of_week":1,"psr_id":0,"min_temp":17,"min_rh":55,"wx_desc":"Mainly fine. Dry during the day. Cool in the morning.","wind_info":"East to northeast force 4 to 5, occasionally force 6 offshore later.","max_temp":24,"max_rh":80,"psr":"Low","forecast_date":"20220404"},{"wx_icon":"51","forecast_day_of_week":2,"psr_id":0,"min_temp":18,"min_rh":55,"wx_desc":"Mainly fine. Dry during the day.","wind_info":"East to northeast force 4 to 5, occasionally force 6 offshore at first.","max_temp":25,"max_rh":80,"psr":"Low","forecast_date":"20220405"}]}
+13:30:05.911 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:APITestDemo/feature/9DayForecast.feature
+13:30:55.849 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': IOS
+13:30:56.263 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:30:56.268 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1648359056268
+13:30:57.234 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: IOS 
+13:30:57.234 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: IOS 
+13:30:57.268 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: IOS 
+13:30:57.268 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: IOS 
+13:30:57.806 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://pda.weather.gov.hk/locspc/data/fnd_e.xml
+1 > Host: pda.weather.gov.hk
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_292)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:57.806 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://pda.weather.gov.hk/locspc/data/fnd_e.xml
+1 > Host: pda.weather.gov.hk
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_292)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:58.091 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 257
+1 < 200
+1 < Date: Sun, 27 Mar 2022 05:30:58 GMT
+1 < Server: Apache
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < Referrer-Policy: same-origin
+1 < X-Frame-Options: [SAMEORIGIN, SAMEORIGIN]
+1 < Last-Modified: Sun, 27 Mar 2022 03:42:55 GMT
+1 < Accept-Ranges: bytes
+1 < Content-Security-Policy: frame-ancestors 'self';
+1 < Content-Length: 3106
+1 < Keep-Alive: timeout=10, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: text/xml
+{"general_situation":"Under the influence of the northeast monsoon, it will be windy over the coast of Guangdong in the next couple of days. Meanwhile, a rainband will bring showers and thunderstorms to the region. The monsoon is expected to moderate midweek this week, the weather will improve gradually with temperatures rising slightly over the coast of southern China. Another surge of the northeast monsoon will bring cool weather to Guangdong in the latter part of this week to early next week.","bulletin_datetime":"202203271130","forecast_detail":[{"wx_icon":"63","forecast_day_of_week":1,"psr_id":4,"min_temp":17,"min_rh":80,"wx_desc":"Cloudy with occasional showers and isolated thunderstorms. Cool in the morning.","wind_info":"East to northeast force 4 to 5, occasionally force 6 offshore later.","max_temp":21,"max_rh":95,"psr":"High","forecast_date":"20220328"},{"wx_icon":"63","forecast_day_of_week":2,"psr_id":4,"min_temp":18,"min_rh":75,"wx_desc":"Mainly cloudy with occasional showers. Isolated thunderstorms later.","wind_info":"East force 4 to 5, occasionally force 6 offshore.","max_temp":22,"max_rh":95,"psr":"High","forecast_date":"20220329"},{"wx_icon":"54","forecast_day_of_week":3,"psr_id":1,"min_temp":20,"min_rh":75,"wx_desc":"A few showers and thunderstorms at first. Sunny intervals during the day.","wind_info":"East force 3 to 4.","max_temp":25,"max_rh":95,"psr":"Medium Low","forecast_date":"20220330"},{"wx_icon":"51","forecast_day_of_week":4,"psr_id":0,"min_temp":20,"min_rh":70,"wx_desc":"Sunny periods. Misty in the morning.","wind_info":"East force 3 to 4, occasionally force 6 offshore later.","max_temp":26,"max_rh":95,"psr":"Low","forecast_date":"20220331"},{"wx_icon":"52","forecast_day_of_week":5,"psr_id":0,"min_temp":17,"min_rh":60,"wx_desc":"Sunny intervals. Cool in the morning.","wind_info":"East to northeast force 5, occasionally force 6 offshore and on high ground.","max_temp":22,"max_rh":80,"psr":"Low","forecast_date":"20220401"},{"wx_icon":"62","forecast_day_of_week":6,"psr_id":1,"min_temp":15,"min_rh":60,"wx_desc":"Cloudy with a few showers. Cool in the morning and at night.","wind_info":"North to northeast force 4 to 5.","max_temp":19,"max_rh":80,"psr":"Medium Low","forecast_date":"20220402"},{"wx_icon":"52","forecast_day_of_week":0,"psr_id":0,"min_temp":15,"min_rh":60,"wx_desc":"Cool with one or two showers in the morning. Sunny intervals in the afternoon.","wind_info":"North to northeast force 4 to 5.","max_temp":20,"max_rh":80,"psr":"Low","forecast_date":"20220403"},{"wx_icon":"51","forecast_day_of_week":1,"psr_id":0,"min_temp":17,"min_rh":55,"wx_desc":"Mainly fine. Dry during the day. Cool in the morning.","wind_info":"East to northeast force 4 to 5, occasionally force 6 offshore later.","max_temp":24,"max_rh":80,"psr":"Low","forecast_date":"20220404"},{"wx_icon":"51","forecast_day_of_week":2,"psr_id":0,"min_temp":18,"min_rh":55,"wx_desc":"Mainly fine. Dry during the day.","wind_info":"East to northeast force 4 to 5, occasionally force 6 offshore at first.","max_temp":25,"max_rh":80,"psr":"Low","forecast_date":"20220405"}]}
+13:30:58.091 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 257
+1 < 200
+1 < Date: Sun, 27 Mar 2022 05:30:58 GMT
+1 < Server: Apache
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < Referrer-Policy: same-origin
+1 < X-Frame-Options: [SAMEORIGIN, SAMEORIGIN]
+1 < Last-Modified: Sun, 27 Mar 2022 03:42:55 GMT
+1 < Accept-Ranges: bytes
+1 < Content-Security-Policy: frame-ancestors 'self';
+1 < Content-Length: 3106
+1 < Keep-Alive: timeout=10, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: text/xml
+{"general_situation":"Under the influence of the northeast monsoon, it will be windy over the coast of Guangdong in the next couple of days. Meanwhile, a rainband will bring showers and thunderstorms to the region. The monsoon is expected to moderate midweek this week, the weather will improve gradually with temperatures rising slightly over the coast of southern China. Another surge of the northeast monsoon will bring cool weather to Guangdong in the latter part of this week to early next week.","bulletin_datetime":"202203271130","forecast_detail":[{"wx_icon":"63","forecast_day_of_week":1,"psr_id":4,"min_temp":17,"min_rh":80,"wx_desc":"Cloudy with occasional showers and isolated thunderstorms. Cool in the morning.","wind_info":"East to northeast force 4 to 5, occasionally force 6 offshore later.","max_temp":21,"max_rh":95,"psr":"High","forecast_date":"20220328"},{"wx_icon":"63","forecast_day_of_week":2,"psr_id":4,"min_temp":18,"min_rh":75,"wx_desc":"Mainly cloudy with occasional showers. Isolated thunderstorms later.","wind_info":"East force 4 to 5, occasionally force 6 offshore.","max_temp":22,"max_rh":95,"psr":"High","forecast_date":"20220329"},{"wx_icon":"54","forecast_day_of_week":3,"psr_id":1,"min_temp":20,"min_rh":75,"wx_desc":"A few showers and thunderstorms at first. Sunny intervals during the day.","wind_info":"East force 3 to 4.","max_temp":25,"max_rh":95,"psr":"Medium Low","forecast_date":"20220330"},{"wx_icon":"51","forecast_day_of_week":4,"psr_id":0,"min_temp":20,"min_rh":70,"wx_desc":"Sunny periods. Misty in the morning.","wind_info":"East force 3 to 4, occasionally force 6 offshore later.","max_temp":26,"max_rh":95,"psr":"Low","forecast_date":"20220331"},{"wx_icon":"52","forecast_day_of_week":5,"psr_id":0,"min_temp":17,"min_rh":60,"wx_desc":"Sunny intervals. Cool in the morning.","wind_info":"East to northeast force 5, occasionally force 6 offshore and on high ground.","max_temp":22,"max_rh":80,"psr":"Low","forecast_date":"20220401"},{"wx_icon":"62","forecast_day_of_week":6,"psr_id":1,"min_temp":15,"min_rh":60,"wx_desc":"Cloudy with a few showers. Cool in the morning and at night.","wind_info":"North to northeast force 4 to 5.","max_temp":19,"max_rh":80,"psr":"Medium Low","forecast_date":"20220402"},{"wx_icon":"52","forecast_day_of_week":0,"psr_id":0,"min_temp":15,"min_rh":60,"wx_desc":"Cool with one or two showers in the morning. Sunny intervals in the afternoon.","wind_info":"North to northeast force 4 to 5.","max_temp":20,"max_rh":80,"psr":"Low","forecast_date":"20220403"},{"wx_icon":"51","forecast_day_of_week":1,"psr_id":0,"min_temp":17,"min_rh":55,"wx_desc":"Mainly fine. Dry during the day. Cool in the morning.","wind_info":"East to northeast force 4 to 5, occasionally force 6 offshore later.","max_temp":24,"max_rh":80,"psr":"Low","forecast_date":"20220404"},{"wx_icon":"51","forecast_day_of_week":2,"psr_id":0,"min_temp":18,"min_rh":55,"wx_desc":"Mainly fine. Dry during the day.","wind_info":"East to northeast force 4 to 5, occasionally force 6 offshore at first.","max_temp":25,"max_rh":80,"psr":"Low","forecast_date":"20220405"}]}
+13:30:58.106 [pool-1-thread-2] INFO  com.intuit.karate - [print] The Humidity of the day after tomorrow ( 20220329 ) is:  75 % - 95 % 
+13:30:58.684 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:APITestDemo/feature/9DayForecast.feature
+10:24:59.785 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:24:59.812 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1652667899810
+10:25:01.353 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:25:01.418 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:25:02.364 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pda.weather.gov.hk/locspc/data/fnd_e.xml
+1 > Host: pda.weather.gov.hk
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_292)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:25:02.743 [main] DEBUG com.intuit.karate - response time in milliseconds: 340
+1 < 200
+1 < Date: Mon, 16 May 2022 02:25:02 GMT
+1 < Server: Apache
+1 < Strict-Transport-Security: max-age=300; includeSubDomains; preload
+1 < Referrer-Policy: same-origin
+1 < X-Frame-Options: SAMEORIGIN
+1 < Last-Modified: Mon, 16 May 2022 01:50:24 GMT
+1 < Accept-Ranges: bytes
+1 < Content-Security-Policy: frame-ancestors 'self';
+1 < Content-Length: 2608
+1 < Keep-Alive: timeout=10, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: text/xml
+{"general_situation":"The northeast monsoon will bring slightly cooler weather to Guangdong today. Under the influence of a dry continental airstream, the weather will improve over southern China midweek this week. A broad trough of low pressure is expected to bring unsettled weather to the northern part of the South China Sea and the coast of Guangdong in the latter part of this week.","bulletin_datetime":"202205160950","forecast_detail":[{"wx_icon":"62","forecast_day_of_week":1,"psr_id":0,"min_temp":19,"min_rh":75,"wx_desc":"Mainly cloudy. A few showers at first.","wind_info":"North to northeast force 4, force 5 offshore.","max_temp":23,"max_rh":95,"psr":"Low","forecast_date":"20220516"},{"wx_icon":"51","forecast_day_of_week":2,"psr_id":0,"min_temp":20,"min_rh":65,"wx_desc":"Sunny periods.","wind_info":"East to northeast force 4 to 5.","max_temp":26,"max_rh":85,"psr":"Low","forecast_date":"20220517"},{"wx_icon":"51","forecast_day_of_week":3,"psr_id":0,"min_temp":22,"min_rh":60,"wx_desc":"Sunny periods.","wind_info":"East force 4 to 5.","max_temp":27,"max_rh":85,"psr":"Low","forecast_date":"20220518"},{"wx_icon":"52","forecast_day_of_week":4,"psr_id":0,"min_temp":23,"min_rh":70,"wx_desc":"Sunny intervals and one or two showers.","wind_info":"East force 3 to 4, occasionally force 5.","max_temp":27,"max_rh":90,"psr":"Low","forecast_date":"20220519"},{"wx_icon":"52","forecast_day_of_week":5,"psr_id":0,"min_temp":24,"min_rh":70,"wx_desc":"Sunny intervals and one or two showers.","wind_info":"East to southeast force 2 to 3.","max_temp":28,"max_rh":90,"psr":"Low","forecast_date":"20220520"},{"wx_icon":"54","forecast_day_of_week":6,"psr_id":1,"min_temp":25,"min_rh":70,"wx_desc":"Sunny intervals and a few showers. Isolated thunderstorms later.","wind_info":"Light winds force 2.","max_temp":28,"max_rh":90,"psr":"Medium Low","forecast_date":"20220521"},{"wx_icon":"62","forecast_day_of_week":0,"psr_id":1,"min_temp":24,"min_rh":70,"wx_desc":"Cloudy with a few showers and isolated thunderstorms.","wind_info":"Northeast force 2 to 3.","max_temp":28,"max_rh":90,"psr":"Medium Low","forecast_date":"20220522"},{"wx_icon":"62","forecast_day_of_week":1,"psr_id":0,"min_temp":24,"min_rh":70,"wx_desc":"Mainly cloudy. A few showers at first.","wind_info":"East to northeast force 3 to 4, occasionally force 5 offshore.","max_temp":28,"max_rh":90,"psr":"Low","forecast_date":"20220523"},{"wx_icon":"51","forecast_day_of_week":2,"psr_id":0,"min_temp":24,"min_rh":65,"wx_desc":"Sunny periods.","wind_info":"East force 4 to 5.","max_temp":28,"max_rh":85,"psr":"Low","forecast_date":"20220524"}]}
+10:25:02.777 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:25:02.784 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:25:02.788 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pda.weather.gov.hk/locspc/data/fnd_e.xml
+1 > Host: pda.weather.gov.hk
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_292)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:25:02.899 [main] DEBUG com.intuit.karate - response time in milliseconds: 110
+1 < 200
+1 < Date: Mon, 16 May 2022 02:25:02 GMT
+1 < Server: Apache
+1 < Strict-Transport-Security: max-age=300; includeSubDomains; preload
+1 < Referrer-Policy: same-origin
+1 < X-Frame-Options: SAMEORIGIN
+1 < Last-Modified: Mon, 16 May 2022 01:50:24 GMT
+1 < Accept-Ranges: bytes
+1 < Content-Security-Policy: frame-ancestors 'self';
+1 < Content-Length: 2608
+1 < Keep-Alive: timeout=10, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: text/xml
+{"general_situation":"The northeast monsoon will bring slightly cooler weather to Guangdong today. Under the influence of a dry continental airstream, the weather will improve over southern China midweek this week. A broad trough of low pressure is expected to bring unsettled weather to the northern part of the South China Sea and the coast of Guangdong in the latter part of this week.","bulletin_datetime":"202205160950","forecast_detail":[{"wx_icon":"62","forecast_day_of_week":1,"psr_id":0,"min_temp":19,"min_rh":75,"wx_desc":"Mainly cloudy. A few showers at first.","wind_info":"North to northeast force 4, force 5 offshore.","max_temp":23,"max_rh":95,"psr":"Low","forecast_date":"20220516"},{"wx_icon":"51","forecast_day_of_week":2,"psr_id":0,"min_temp":20,"min_rh":65,"wx_desc":"Sunny periods.","wind_info":"East to northeast force 4 to 5.","max_temp":26,"max_rh":85,"psr":"Low","forecast_date":"20220517"},{"wx_icon":"51","forecast_day_of_week":3,"psr_id":0,"min_temp":22,"min_rh":60,"wx_desc":"Sunny periods.","wind_info":"East force 4 to 5.","max_temp":27,"max_rh":85,"psr":"Low","forecast_date":"20220518"},{"wx_icon":"52","forecast_day_of_week":4,"psr_id":0,"min_temp":23,"min_rh":70,"wx_desc":"Sunny intervals and one or two showers.","wind_info":"East force 3 to 4, occasionally force 5.","max_temp":27,"max_rh":90,"psr":"Low","forecast_date":"20220519"},{"wx_icon":"52","forecast_day_of_week":5,"psr_id":0,"min_temp":24,"min_rh":70,"wx_desc":"Sunny intervals and one or two showers.","wind_info":"East to southeast force 2 to 3.","max_temp":28,"max_rh":90,"psr":"Low","forecast_date":"20220520"},{"wx_icon":"54","forecast_day_of_week":6,"psr_id":1,"min_temp":25,"min_rh":70,"wx_desc":"Sunny intervals and a few showers. Isolated thunderstorms later.","wind_info":"Light winds force 2.","max_temp":28,"max_rh":90,"psr":"Medium Low","forecast_date":"20220521"},{"wx_icon":"62","forecast_day_of_week":0,"psr_id":1,"min_temp":24,"min_rh":70,"wx_desc":"Cloudy with a few showers and isolated thunderstorms.","wind_info":"Northeast force 2 to 3.","max_temp":28,"max_rh":90,"psr":"Medium Low","forecast_date":"20220522"},{"wx_icon":"62","forecast_day_of_week":1,"psr_id":0,"min_temp":24,"min_rh":70,"wx_desc":"Mainly cloudy. A few showers at first.","wind_info":"East to northeast force 3 to 4, occasionally force 5 offshore.","max_temp":28,"max_rh":90,"psr":"Low","forecast_date":"20220523"},{"wx_icon":"51","forecast_day_of_week":2,"psr_id":0,"min_temp":24,"min_rh":65,"wx_desc":"Sunny periods.","wind_info":"East force 4 to 5.","max_temp":28,"max_rh":85,"psr":"Low","forecast_date":"20220524"}]}
+10:25:02.917 [main] INFO  com.intuit.karate - [print] The Humidity of the day after tomorrow ( 20220517 ) is:  65 % - 85 % 
+10:25:03.891 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/APITestDemo/feature/9DayForecast.feature
